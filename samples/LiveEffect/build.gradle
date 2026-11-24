@@ -33,6 +33,7 @@ android {
         }
     }
     namespace 'com.google.oboe.samples.liveEffect'
+    ndkVersion '28.2.13676358'
 }
 
 dependencies {
@@ -40,3 +41,4 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.2.1'
     implementation project(':audio-device')
 }
+
